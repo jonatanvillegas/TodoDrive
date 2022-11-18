@@ -269,6 +269,7 @@ const Quiz = ({navigation}) => {
                         {
                             score < 18 ? (
                                 <>
+                                
                                     <TouchableOpacity onPress={restartQuiz} style={{
                                         backgroundColor: COLORS.secondary,
                                         padding: 20, width: '100%', borderRadius: 20

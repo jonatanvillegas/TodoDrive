@@ -269,7 +269,6 @@ const Quiz = ({navigation}) => {
                         {
                             score < 18 ? (
                                 <>
-                                
                                     <TouchableOpacity onPress={restartQuiz} style={{
                                         backgroundColor: COLORS.secondary,
                                         padding: 20, width: '100%', borderRadius: 20
@@ -286,6 +285,8 @@ const Quiz = ({navigation}) => {
                                         textAlign: 'center', color:COLORS.white, fontSize: 20
                                     }}>Regresar a Menu</Text>
                                  </TouchableOpacity>
+
+                                    
                                 </>
                                 
                                 

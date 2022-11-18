@@ -244,6 +244,7 @@ const Quiz = ({navigation}) => {
                         padding: 20,
                         alignItems: 'center'
                     }}>
+                        
                         <Text style={{
                             fontSize: 20, fontWeight: 'bold' 
                             }}>
